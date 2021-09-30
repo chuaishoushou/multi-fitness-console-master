@@ -1,0 +1,135 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "useIsolateContext": true,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "showES6CompileOption": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.0.4",
+  "appid": "wxf209b0a2f856d4a1",
+  "projectname": "%E6%9D%8F%E8%BF%90%E6%A0%91",
+  "isGameTourist": false,
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "俱乐部主页扫码",
+          "pathName": "pages/club/home/home",
+          "query": "authCode=xys36",
+          "scene": "1011"
+        },
+        {
+          "id": 1,
+          "name": "教练列表",
+          "pathName": "pages/club/coaches/coaches",
+          "query": "clubId=1",
+          "scene": "1011"
+        },
+        {
+          "id": 2,
+          "name": "签到扫码",
+          "pathName": "pages/club/checkin/checkin",
+          "query": "clubId=80",
+          "scene": "1011"
+        },
+        {
+          "id": 3,
+          "name": "预约教练",
+          "pathName": "pages/club/member-bespeak/member-bespeak",
+          "query": "coachId=1",
+          "scene": "1011"
+        },
+        {
+          "id": 4,
+          "name": "完课评价-扫码",
+          "pathName": "pages/club/member-finishPtrain/member-finishPtrain",
+          "query": "scene=a%3D3zf38k5pa%26b%3D6%26c%3D1",
+          "scene": "1011"
+        },
+        {
+          "id": 5,
+          "name": "成为俱乐部教练-扫码",
+          "pathName": "pages/club/coach-join/coach-join",
+          "query": "authCode=xys36",
+          "scene": "1011"
+        },
+        {
+          "id": 6,
+          "name": "清空缓存",
+          "pathName": "pages/tool/clearCache/clearCache",
+          "query": "",
+          "scene": "1011"
+        },
+        {
+          "id": 7,
+          "name": "预约详情",
+          "pathName": "pages/club/coach-bespeak-detail/coach-bespeak-detail",
+          "query": "id=28",
+          "scene": "1011"
+        },
+        {
+          "id": -1,
+          "name": "学员列表",
+          "pathName": "pages/club/coach-student-list/coach-student-list",
+          "query": "clubId=1",
+          "scene": "1011"
+        },
+        {
+          "id": -1,
+          "name": "签到-扫码",
+          "pathName": "pages/club/checkin/checkin",
+          "query": "clubId=7",
+          "scene": "1011"
+        }
+      ]
+    }
+  }
+}
